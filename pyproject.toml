@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pythoneda-rydnr"
+version = "0.0.1a1"
+description = "Rydnr interactions with PythonEDA domains"
+authors = ["rydnr <github@acm-sl.org>"]
+readme = "README.md"
+packages = [{include = "PythonEDARydnr"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pythoneda = "^0.0.1a5"
+pythoneda-git-repositories = "^0.0.1a3"
+pythoneda-nix-shared = "^0.0.1a3"
+pythoneda-python-packages = "^0.0.1a2"
+pythoneda-infrastructure-layer = "^0.0.1a2"
+pythoneda-application-layer = "^0.0.1a3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
