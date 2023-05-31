@@ -1,4 +1,4 @@
-from domain.primary_port import PrimaryPort
+from PythonEDA.primary_port import PrimaryPort
 
 import argparse
 

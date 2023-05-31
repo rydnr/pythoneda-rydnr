@@ -1,19 +1,20 @@
 [tool.poetry]
 name = "pythoneda-rydnr"
-version = "0.0.1a1"
+version = "0.0.1a2"
 description = "Rydnr interactions with PythonEDA domains"
 authors = ["rydnr <github@acm-sl.org>"]
 readme = "README.md"
+homepage = "https://github.com/rydnr/pythoneda-rydnr"
 packages = [{include = "PythonEDARydnr"}]
 
 [tool.poetry.dependencies]
-python = "^3.7"
-pythoneda = "^0.0.1a5"
-pythoneda-git-repositories = "^0.0.1a3"
-pythoneda-nix-shared = "^0.0.1a3"
-pythoneda-python-packages = "^0.0.1a2"
-pythoneda-infrastructure-layer = "^0.0.1a2"
-pythoneda-application-layer = "^0.0.1a3"
+python = "^3.6"
+pythoneda = "^0.0.1a7"
+pythoneda-git-repositories = "^0.0.1a4"
+pythoneda-shared-nix = "^0.0.1a4"
+pythoneda-python-packages = "^0.0.1a3"
+pythoneda-infrastructure-base = "^0.0.1a5"
+pythoneda-application-base = "^0.0.1a5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0"
